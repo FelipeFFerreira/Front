@@ -127,6 +127,22 @@ section#corpo {
     padding-right: 20px;
 }
 
+/* Formatação da Tabela*/
+table#tabelaspec {
+    border: 1px solid gray;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto ;
+}
+
+table#tabelaspec td {
+    border: 1px solid gray;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
 aside#lateral {
     display: block;
     width: 750px;
