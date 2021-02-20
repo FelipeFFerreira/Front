@@ -31,7 +31,7 @@ header#cabecalho img#icone {
 }
 
 header#cabecalho {
-    border-bottom: 1px gray solid;
+    border-bottom: 1px #606060 solid;
     height: 150px;
     background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 80px;
 }
@@ -39,7 +39,7 @@ header#cabecalho {
 header#cabecalho h1 {
     font-family: 'FontLogo', sans-serif;
     font-size: 30pt;
-    color: gray;
+    color: #606060;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
     padding: 0px;
     margin-bottom: 0px;
@@ -103,7 +103,7 @@ nav#menu li {
 }
 
 nav#menu li:hover {
-    background-color: gray;
+    background-color: #606060;
 }
 nav#menu h1 {
     display: none;
@@ -123,25 +123,50 @@ section#corpo {
     display: block;
     width: 800px;
     float: left; /*Configura obj para flutuar. obs: deve esta em bloco*/
-    border-right: 1px solid gray;
+    border-right: 1px solid #606060;
     padding-right: 20px;
 }
 
 /* Formatação da Tabela*/
 table#tabelaspec {
-    border: 1px solid gray;
+    border: 1px solid #606060;
     border-spacing: 0px;
     margin-left: auto;
     margin-right: auto ;
 }
 
 table#tabelaspec td {
-    border: 1px solid gray;
+    border: 1px solid #606060;
     padding: 10px;
     text-align: center;
     vertical-align: middle;
-
 }
+
+table#tabelaspec td.ce {
+    color: #ffffff;
+    background-color: #606060;
+    vertical-align: top;
+    font-weight: bold;
+}
+
+table#tabelaspec td.cd {
+    background-color:#cecece ;
+}
+
+table#tabelaspec caption{
+    color: #888888;
+    font-size: 13pt;
+    font-weight: bolder; /*negrito*/
+}
+
+table#tabelaspec caption span {
+    display: block;
+    float: right;
+    color: black;
+    font-size: 8pt;
+    margin-top: 10px ;
+}
+/* ////////////////////////////*/ 
 
 aside#lateral {
     display: block;
@@ -151,7 +176,7 @@ aside#lateral {
 
 footer#rodape {
     clear: both;
-    border-top: 1px solid gray;
+    border-top: 1px solid #606060;
 }
 
 footer#rodape p {
