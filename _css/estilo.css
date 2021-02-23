@@ -212,7 +212,7 @@ table#tabelaspec caption span {
 }
 /* ////////////////////////////*/ 
 
-aside#lateral {
+aside#lateral { 
     display: block;
     width: 600px;
     float: right;
